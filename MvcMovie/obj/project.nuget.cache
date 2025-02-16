@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Eit29/dh2ss=",
+  "success": true,
+  "projectFilePath": "D:\\Dev\\Net_Core_API\\MvcMovie\\MvcMovie.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pc tam\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
