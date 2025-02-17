@@ -1,5 +1,15 @@
 @{
     ViewData["Title"] = "Index";
 }
-    <h2>Index</h2>
-    <p>Hello from from the index </p>
+    <form asp-action="index">
+    <label>Nhập điểm A: </label>
+    <input type="text" name="DiemA" />
+    <label>Nhập điểm B: </label>
+    <input type="text" name="DiemB" />
+    <label>Nhập điểm C: </label>
+    <input type="text" name="DiemC" />
+    <input type="submit" value="Gửi dữ liệu" />
+</form>
+
+<h1>@ViewBag.Message1</h1>
+<h1>@ViewBag.Message2</h1>

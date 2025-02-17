@@ -1,11 +1,14 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.SignalR;
+using Microsoft.Net.Http.Headers;
 
 namespace MvcMovie.Models;
 
-public class Employee : Person
+public class Employee
 {
-    public string? EmployeeId   {get; set; }
+    public string? DiemA   {get; set; }
 
-    public int Age  {get; set; }
+    public string? DiemB   {get; set; }
 
+    public string? DiemC  {get; set; }
 }

@@ -4,10 +4,10 @@ using Microsoft.Net.Http.Headers;
 
 namespace MvcMovie.Models;
 
-public class Person
+public class HoaDon
 {
-    public string? CanNang  {get; set; }
+    public string? SoLuongSoLuong  {get; set; }
 
-    public string? ChieuCao {get; set; }
+    public string? DonGia {get; set; }
 
 }
