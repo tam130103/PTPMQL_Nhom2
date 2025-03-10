@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Index";
+}
+<form asp-action="index">
+    <label>Nhập cân nặng(kg): </label>
+    <input type="text" name="CanNang" />
+    <label>Nhập Chiều cao(m): </label>
+    <input type="text" name="ChieuCao" />
+    <input type="submit" value="Gửi dữ liệu" />
+</form>
+
+<h1>@ViewBag.Message1</h1>
+<h1>@ViewBag.Message2</h1>
